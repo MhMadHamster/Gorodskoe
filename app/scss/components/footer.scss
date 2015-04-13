@@ -49,11 +49,20 @@
             width: 100%;
             padding-left: 55px;
             box-sizing: border-box;
+            display: block;
 
-            & > label {
+            &:hover {
+                cursor: pointer;
+            }
+
+            & > span {
                 font-size: 13px;
                 font-weight: 300;
                 color: #000;
+
+                &:hover {
+                    cursor: pointer;
+                }
             }
 
             &:before {
