@@ -1,0 +1,44 @@
+.map-wrapper {
+    position: relative;
+    min-height: 800px;
+
+    .map {
+        width: 100%;
+        height: 100%;
+        min-width: 1000px;
+        position: absolute;
+    }
+
+    .map-inner {
+        width: 100%;
+        position: relative;
+        box-sizing: border-box;
+        padding: 40px 0;
+    }
+
+    .map-info {
+        max-width: 488px;
+
+        &-header {
+            font-size: 60px;
+            letter-spacing: -3pt;
+            color: $darkgrey;
+            font-weight: bold;
+            margin: 0;
+            margin-bottom: 30px;
+            line-height: 48px;
+            display: block;
+        }
+
+        &-text {
+            display: block;
+            font-size: 15px;
+            line-height: 20px;
+            color: $white;
+            margin-top: 13px;
+            background-color: rgba(0,0,0, .7);
+            padding: 15px 20px;
+            padding-bottom: 20px;
+        }
+    }
+}

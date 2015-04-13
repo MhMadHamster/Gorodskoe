@@ -1,0 +1,252 @@
+.main-slider {
+    width: 100%;
+    position: relative;
+
+    .main-slider-inner {
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .bx-wrapper {
+        margin-bottom: 0;
+        max-height: 400px;
+        overflow: hidden;
+        z-index: 15;
+
+        .bx-viewport {
+            border: none;
+        }
+    }
+
+    .bxSlider {
+        margin: 0;
+
+        & > li {
+            border-top: 1px solid #fff;
+            max-height: 400px;
+
+            & > img {
+                height: 100%;
+                max-height: 400px;
+                margin-left: auto;
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.pagination {
+    height: 100%;
+    width: 980px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 0;
+
+    &:after {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 95%;
+        width: 4000px;
+        height: 100%;
+        background-color: $lightblue;
+        z-index: 100;
+    }
+}
+
+#bx-pager {
+    position: absolute;
+    bottom: 0;
+    left: 334px;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+
+    & > a {
+        display: inline-block;
+        margin-right: 10px;
+
+        & > .bx-pagination {
+            display: block;
+            font-size: 0;
+            width: 16px;
+            height: 16px;
+            background-color: #eaeaea;
+            box-sizing: border-box;
+            border: 1px solid #bdbdbd;
+            border-radius: 50%;
+            position: relative;
+            box-shadow: inset 0 1px 3px rgba(0,0,0, .15), 0 1px 1px rgba(0,0,0, .15);
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        &.active {
+
+            & > .bx-pagination:hover {
+                cursor: default;
+            }
+
+            & > .bx-pagination:after {
+                content: '';
+                display: block;
+                position: absolute;
+                margin: auto;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 12px;
+                height: 12px;
+                box-sizing: border-box;
+                border: 2px solid #000;
+                background-color: $lightgreen;
+                border-radius: 50%;
+                box-shadow: 0 1px 2px rgba(0,0,0, .20);
+            }
+        }
+    }
+}
+
+.slider-prev > a {
+    font-size: 0;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 30px;
+    left: 267px;
+    z-index: 1000;
+    background-color: transparent;
+    border: none;
+    background-image: url('../img/icon-prev.png');
+    background-size: cover;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+
+.slider-next > a {
+    font-size: 0;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 30px;
+    right: 33px;
+    z-index: 1000;
+    background-color: transparent;
+    border: none;
+    background-image: url('../img/icon-next.png');
+    background-size: cover;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+
+// Waymark
+.cloud-left {
+    position: absolute;
+    z-index: 1000;
+    top: -25px;
+    left: -78px;
+}
+
+[class^="waymark-caption"] {
+    position: absolute;
+    z-index: 1001;
+
+    .waymark-place {
+        vertical-align: middle;
+        display: inline-block;
+        font-size: 10px;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .waymark-distance {
+        vertical-align: middle;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: bold;
+        color: #000;
+    }
+}
+
+.waymark-caption-1 {
+    top: 28px;
+    left: 88px;
+    transform: rotate(-22deg) skewX(-21deg);
+    line-height: 10px;
+
+    & > .waymark-place {
+        margin-right: 7px;
+    }
+}
+
+.waymark-caption-2 {
+    top: 83px;
+    left: 30px;
+    line-height: 10px;
+    transform: rotate(8deg) skewX(8deg);
+
+    & > .waymark-place {
+        text-align: right;
+    }
+
+    & > .waymark-distance {
+        margin-right: 4px;
+    }
+}
+
+.waymark-caption-3 {
+    top: 146px;
+    left: 95px;
+    line-height: 10px;
+    transform: rotate(6deg) skewX(4deg);
+
+    & > .waymark-place {
+        margin-right: 4px;
+    }
+}
+
+.waymark-caption-4 {
+    top: 193px;
+    left: 32px;
+    line-height: 13px;
+    transform: rotate(-5deg) skewX(-7deg);
+
+    & > .waymark-place {
+        font-size: 14px;
+    }
+
+    & > .waymark-distance {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+}
+
+.waymark-caption-5 {
+    top: 242px;
+    left: 97px;
+    line-height: 16px;
+    transform: rotate(6deg) skewX(7deg);
+
+    & > .waymark-place {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+    & > .waymark-distance {
+        font-size: 12px;
+    }
+}

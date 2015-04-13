@@ -1,0 +1,35 @@
+.sprite {
+    background-image: url('../img/spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-icon-fb {
+    width: 31px;
+    height: 30px;
+    background-position: -5px -5px;
+}
+
+.sprite-icon-gplus {
+    width: 31px;
+    height: 30px;
+    background-position: -46px -5px;
+}
+
+.sprite-icon-odno {
+    width: 31px;
+    height: 30px;
+    background-position: -5px -45px;
+}
+
+.sprite-icon-twitter {
+    width: 32px;
+    height: 30px;
+    background-position: -46px -45px;
+}
+
+.sprite-icon-vk {
+    width: 31px;
+    height: 30px;
+    background-position: -87px -5px;
+}
