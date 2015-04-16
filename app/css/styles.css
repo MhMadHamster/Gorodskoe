@@ -1,3 +1,76 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/opensans-bold-webfont.eot');
+  src: url('../font/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../font/opensans-bold-webfont.woff') format('woff'), url('../font/opensans-bold-webfont.ttf') format('truetype'), url('../font/opensans-bold-webfont.svg#open_sansbold') format('svg');
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/opensans-italic-webfont.eot');
+  src: url('../font/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../font/opensans-italic-webfont.woff') format('woff'), url('../font/opensans-italic-webfont.ttf') format('truetype'), url('../font/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/opensans-light-webfont.eot');
+  src: url('../font/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('../font/opensans-light-webfont.woff') format('woff'), url('../font/opensans-light-webfont.ttf') format('truetype'), url('../font/opensans-light-webfont.svg#open_sanslight') format('svg');
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/opensans-regular-webfont.eot');
+  src: url('../font/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../font/opensans-regular-webfont.woff') format('woff'), url('../font/opensans-regular-webfont.ttf') format('truetype'), url('../font/opensans-regular-webfont.svg#open_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/opensans-extrabolditalic-webfont.eot');
+  src: url('../font/opensans-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('../font/opensans-extrabolditalic-webfont.woff') format('woff'), url('../font/opensans-extrabolditalic-webfont.ttf') format('truetype'), url('../font/opensans-extrabolditalic-webfont.svg#open_sansextrabold_italic') format('svg');
+  font-weight: 800;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/opensans-lightitalic-webfont.eot');
+  src: url('../font/opensans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'), url('../font/opensans-lightitalic-webfont.woff') format('woff'), url('../font/opensans-lightitalic-webfont.ttf') format('truetype'), url('../font/opensans-lightitalic-webfont.svg#open_sanslight_italic') format('svg');
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/opensans-semibold-webfont.eot');
+  src: url('../font/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../font/opensans-semibold-webfont.woff') format('woff'), url('../font/opensans-semibold-webfont.ttf') format('truetype'), url('../font/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/opensans-semibolditalic-webfont.eot');
+  src: url('../font/opensans-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('../font/opensans-semibolditalic-webfont.woff') format('woff'), url('../font/opensans-semibolditalic-webfont.ttf') format('truetype'), url('../font/opensans-semibolditalic-webfont.svg#open_sanssemibold_italic') format('svg');
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/opensans-bolditalic-webfont.eot');
+  src: url('../font/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('../font/opensans-bolditalic-webfont.woff') format('woff'), url('../font/opensans-bolditalic-webfont.ttf') format('truetype'), url('../font/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/opensans-extrabold-webfont.eot');
+  src: url('../font/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'), url('../font/opensans-extrabold-webfont.woff') format('woff'), url('../font/opensans-extrabold-webfont.ttf') format('truetype'), url('../font/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
+  font-weight: 800;
+  font-style: normal; }
+
+body {
+  min-width: 980px; }
+
 .container {
   margin: 0 auto;
   width: 980px; }
@@ -35,7 +108,8 @@
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  min-width: 980px; }
 
 .page-wrapper {
   margin: 0;
@@ -47,66 +121,6 @@ a {
 
 div:focus, div:active, button:focus, button:active {
   outline: none; }
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('../font/OpenSans-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('../font/OpenSans-Italic.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('../font/OpenSans-SemiBold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('../font/OpenSans-SemiBoldItalic.ttf') format('truetype');
-  font-weight: 600;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('../font/OpenSans-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('../font/OpenSans-BoldItalic.ttf') format('truetype');
-  font-weight: 700;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('../font/OpenSans-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('../font/OpenSans-LightItalic.ttf') format('truetype');
-  font-weight: 300;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('../font/OpenSans-ExtraBold.ttf') format('truetype');
-  font-weight: 800;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('../font/OpenSans-ExtraBoldItalic.ttf') format('truetype');
-  font-weight: 800;
-  font-style: italic; }
 
 .sprite {
   background-image: url('../img/spritesheet.png');
@@ -146,23 +160,23 @@ div:focus, div:active, button:focus, button:active {
     max-height: 150px; }
     .header-inner .header-cloud-big, .header-inner .header-cloud-small {
       position: absolute;
-      top: 0;
       left: 0;
       z-index: 1; }
     .header-inner .header-cloud-big {
+      top: 0;
       left: -100px;
       z-index: 120; }
     .header-inner .header-cloud-small {
       bottom: -44px;
-      left: 433px;
-      top: initial; }
+      left: 433px; }
   .header .logo-wrapper {
     display: inline-block;
     padding-left: 12px;
     padding-top: 38px;
     padding-bottom: 54px;
     position: relative;
-    z-index: 150; }
+    z-index: 150;
+    max-height: 325px; }
     .header .logo-wrapper .logo .sup-h1 {
       color: #000;
       font-size: 16px;
@@ -186,7 +200,8 @@ div:focus, div:active, button:focus, button:active {
     margin: 0;
     padding-left: 85px;
     text-align: right;
-    font-weight: 300; }
+    font-weight: 300;
+    max-width: 260px; }
     .header .contact-phone .sup-phone {
       font-size: 15px;
       color: #000;
@@ -203,15 +218,17 @@ div:focus, div:active, button:focus, button:active {
     padding-left: 28px;
     font-size: 13px;
     color: #000;
-    font-weight: 300; }
+    font-weight: 300;
+    max-width: 197px; }
     .header .schedule-wrapper > p {
       margin: 1px 0; }
   .header .write-link {
     display: inline-block;
     vertical-align: top;
-    padding-left: 75px;
+    padding-left: 65px;
     margin-top: 65px;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    max-width: 200px; }
     .header .write-link > a {
       font-size: 15px;
       color: #000;
@@ -224,7 +241,10 @@ div:focus, div:active, button:focus, button:active {
   .main-slider .main-slider-inner {
     max-width: 1600px;
     margin-left: auto;
-    margin-right: 0; }
+    margin-right: 0;
+    position: relative;
+    z-index: 2;
+    background-color: #c6e1f4; }
   .main-slider .bx-wrapper {
     margin-bottom: 0;
     max-height: 400px;
@@ -238,6 +258,7 @@ div:focus, div:active, button:focus, button:active {
       border-top: 1px solid #fff;
       max-height: 400px; }
       .main-slider .bxSlider > li > img {
+        max-width: 100%;
         height: 100%;
         max-height: 400px;
         margin-left: auto;
@@ -436,7 +457,7 @@ div:focus, div:active, button:focus, button:active {
   text-align: justify; }
   .top-menu-item {
     display: inline-block;
-    padding: 0 32px;
+    padding: 0 34px;
     box-sizing: border-box;
     position: relative; }
     .top-menu-item:not(:first-child):before {
@@ -571,12 +592,16 @@ div:focus, div:active, button:focus, button:active {
 
 .map-wrapper {
   position: relative;
-  min-height: 800px; }
+  min-height: 800px;
+  background-color: #efefef; }
   .map-wrapper .map {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     min-width: 1000px;
-    position: absolute; }
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0; }
   .map-wrapper .map-inner {
     width: 100%;
     position: relative;
@@ -862,9 +887,25 @@ div:focus, div:active, button:focus, button:active {
   display: none;
   font-size: 22px;
   width: 400px;
-  color: #fff;
-  background-color: #a7cc4f;
-  border-radius: 5px;
-  padding: 20px 0;
+  color: #505050;
+  background-color: #c6e1f4;
+  border: 4px solid #a7cc4f;
+  padding: 40px 0;
+  box-sizing: border-box;
+  position: relative;
   text-align: center;
   font-family: 'Open Sans', Arial, "Helvetica Neue", Helvetica, sans-serif; }
+  .popup-close {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    position: absolute;
+    background-color: #a7cc4f;
+    width: 24px;
+    height: 24px;
+    top: -12px;
+    right: -12px; }
+    .popup-close:hover {
+      cursor: pointer; }

@@ -2,10 +2,30 @@
     display: none;
     font-size: 22px;
     width: 400px;
-    color: $white;
-    background-color: $lightgreen;
-    border-radius: 5px;
-    padding: 20px 0;
+    color: $darkgrey;
+    background-color: $lightblue;
+    border: 4px solid $lightgreen;
+    padding: 40px 0;
+    box-sizing: border-box;
+    position: relative;
     text-align: center;
     font-family: 'Open Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    &-close {
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: bold;
+        color: $white;
+        display: block;
+        position: absolute;
+        background-color: $lightgreen;
+        width: 24px;
+        height: 24px;
+        top: -12px;
+        right: -12px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
 }

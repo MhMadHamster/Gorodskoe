@@ -2,10 +2,15 @@
 <html lang="ru">
 <head>
     
+    <meta charset="utf-8">
+    <meta name="robots" content="{if $page.noindex}none{else}all{/if}">
+    <meta name="description" content="{$page.description}">
+    <meta name="keywords" content="{$page.keywords}">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
     <link rel="stylesheet" href="css/styles.css">
 
-    <meta charset="UTF-8">
-    <title>СНТ "Городское"</title>
+    <title>{$page.title}</title>
 
 </head>
 <body>
@@ -26,17 +31,13 @@
                 <!-- [+] .header-inner -->
                 <div class="header-inner">
 
-                    <!-- [+] .header-cloud-big -->
                     <div class="header-cloud-big">
                         <img src="img/cloud-1.png" height="171" width="507" alt="">
                     </div>
-                    <!-- [-] .header-cloud-big -->
 
-                    <!-- [+] .header-cloud-small -->
                     <div class="header-cloud-small">
                         <img src="img/cloud-2.png" height="74" width="204" alt="">
                     </div>
-                    <!-- [-] .header-cloud-small -->
                 
                 
                     <!-- [+] .logo-wrapper -->
@@ -75,7 +76,9 @@
                     <!-- [-] .write-link -->
 
 
-                    <span class="popup">Popup</span>
+                    <span class="popup">Popup
+                        <span class="popup-close b-close">X</span>
+                    </span>
 
 
                 </div>
@@ -256,16 +259,13 @@
 
                     <!-- [+] .news-item -->
                     <div class="news-item">
-                        <!-- [+] .news-date -->
+
                         <p class="news-date">29.08.2014</p>
-                        <!-- [-] .news-date -->
-                        <!-- [+] .img-wrapper -->
+
                         <div class="img-wrapper"> <img src="img/news-1.jpg" height="127" width="305" alt="Проведение сетей"> </div>
-                        <!-- [-] .img-wrapper -->
-                        <!-- [+] .news-item-header -->
+
                         <h6 class="news-item-header">Проведение сетей</h6>
-                        <!-- [-] .news-item-header -->
-                        <!-- [+] .news-text -->
+
                         <p class="news-text">На сегодняшний день внутренние сети протянуты на 50% по двум очередям. Ведутся общестроительные работы по корпусам и отдельным домам. В продаже осталось чуть более 15% свободных таунхаусов.</p>
                         <!-- [-] .news-text -->
                     </div>
@@ -274,36 +274,30 @@
 
                     <!-- [+] .news-item -->
                     <div class="news-item">
-                        <!-- [+] .news-date -->
+
                         <p class="news-date">20.07.2014</p>
-                        <!-- [-] .news-date -->
-                        <!-- [+] .img-wrapper -->
+
                         <div class="img-wrapper"> <img src="img/news-2.jpg" height="127" width="305" alt="Завершено асфальтирование дороги"> </div>
-                        <!-- [-] .img-wrapper -->
-                        <!-- [+] .news-item-header -->
+
                         <h6 class="news-item-header">Завершено асфальтирование дороги</h6>
-                        <!-- [-] .news-item-header -->
-                        <!-- [+] .news-text -->
+
                         <p class="news-text">На сегодняшний день подъехать к поселку можно с комфортом движения по новой дороге. Ждем всех желающих на просмотр самого успешного проекта Ленинградской  области  в сегменте участки без обязательного подряда с инженерной подготовкой.</p>
-                        <!-- [-] .news-text -->
+
                     </div>
                     <!-- [-] .news-item -->
 
 
                     <!-- [+] .news-item -->
                     <div class="news-item">
-                        <!-- [+] .news-date -->
+
                         <p class="news-date">15.07.2014</p>
-                        <!-- [-] .news-date -->
-                        <!-- [+] .img-wrapper -->
+
                         <div class="img-wrapper"> <img src="img/news-3.jpg" height="127" width="305" alt="Окончание подведения подъездной дороги"> </div>
-                        <!-- [-] .img-wrapper -->
-                        <!-- [+] .news-item-header -->
+
                         <h6 class="news-item-header">Окончание подведения подъездной дороги</h6>
-                        <!-- [-] .news-item-header -->
-                        <!-- [+] .news-text -->
+
                         <p class="news-text">В ближайшем месяце начнется строительство дома администрации и поста охраны, а также ограждения первой очереди поселка. Кроме того, будет произведен вынос границ внутрипоселковых дорог и участков, начнутся работы по установке столбов освещения на подъездную дорогу и обустройству гостевой парковки.</p>
-                        <!-- [-] .news-text -->
+
                     </div>
                     <!-- [-] .news-item -->
 
@@ -333,14 +327,13 @@
                 <div class="map-inner">
                     
                     
-                     <!-- [+] .map-info -->
+                    <!-- [+] .map-info -->
                     <div class="map-info">
-                        <!-- [+] .map-info-header -->
+
                         <p class="map-info-header">СНТ «Городское»</p>
-                        <!-- [-] .map-info-header -->
-                        <!-- [+] .map-info-text -->
+
                         <p class="map-info-text">Коттеджный поселок обеспечивается всей необходимой инженерной и социальной инфраструктурой. К участкам прокладываются дороги, подводится водопровод, электричество, выполняется наружное освещение.</p>
-                        <!-- [-] .map-info-text -->
+
                     </div>
                     <!-- [-] .map-info -->
 
@@ -369,6 +362,8 @@
                 <!-- [+] .feedback -->
                 <form action="#" class="feedback">
                     
+
+                    <!-- [+] .row -->
                     <div class="row">
 
                         <div class="col-6">
@@ -382,8 +377,10 @@
                         </div>
 
                     </div>
+                    <!-- [-] .row -->
 
 
+                    <!-- [+] .row -->
                     <div class="row">
 
                         <div class="col-8">
@@ -396,6 +393,7 @@
                         </div>
 
                     </div>
+                    <!-- [-] .row -->
 
                 </form>
                 <!-- [-] .feedback -->
@@ -417,9 +415,11 @@
             <div class="container">
                 
 
+                <!-- [+] .row -->
                 <div class="row">
 
 
+                    <!-- [+] .col-4 -->
                     <div class="col-4">
                         
                         <p class="survey-question">Вы ищете квартиру или участок для...?</p>
@@ -470,10 +470,13 @@
                         </form>
 
                     </div>
+                    <!-- [-] .col-4 -->
 
-
+                    
+                    <!-- [+] .col-3 -->
                     <div class="col-3">
                         
+                        <!-- [+] .news-list -->
                         <ul class="news-list">
 
                             <li class="news-list__item"> <a href="">О СНТ</a> </li>
@@ -487,10 +490,13 @@
                             <li class="news-list__item"> <a href="">Контакты</a> </li>
 
                         </ul>
+                        <!-- [-] .news-list -->
 
                     </div>
+                    <!-- [-] .col-3 -->
 
 
+                    <!-- [+] .col-5 -->
                     <div class="col-5">
                         
                         <!-- [+] .info-wrapper -->
@@ -572,9 +578,11 @@
 
 
                     </div>
+                    <!-- [-] .col-5 -->
 
 
                 </div>
+                <!-- [-] .row -->
 
 
             </div>
@@ -594,6 +602,9 @@
     <script type="text/javascript" src="js/jquery.bpopup.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
+
+    <!-- B.M. id-1054 -->
+
 </body>
-<!-- B.M. id-1054 -->
+
 </html>

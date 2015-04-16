@@ -9,12 +9,12 @@
         .header-cloud-big,
         .header-cloud-small {
             position: absolute;
-            top: 0;
             left: 0;
             z-index: 1;
         }
 
         .header-cloud-big {
+            top: 0;
             left: -100px;
             z-index: 120;
         }
@@ -22,7 +22,6 @@
         .header-cloud-small {
             bottom: -44px;
             left: 433px;
-            top: initial;
         }
     }
 
@@ -33,6 +32,7 @@
         padding-bottom: 54px;
         position: relative;
         z-index: 150;
+        max-height: 325px;
 
         .logo {
             .sup-h1 {
@@ -64,6 +64,7 @@
         padding-left: 85px;
         text-align: right;
         font-weight: 300;
+        max-width: 260px;
 
         .sup-phone {
             font-size: 15px;
@@ -89,6 +90,7 @@
         font-size: 13px;
         color: #000;
         font-weight: 300;
+        max-width: 197px;
 
         & > p {
             margin: 1px 0;
@@ -98,9 +100,10 @@
     .write-link {
         display: inline-block;
         vertical-align: top;
-        padding-left: 75px;
+        padding-left: 65px;
         margin-top: 65px;
         box-sizing: border-box;
+        max-width: 200px;
         
         & > a {
             font-size: 15px;
