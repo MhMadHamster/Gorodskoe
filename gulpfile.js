@@ -45,7 +45,8 @@ gulp.task('css', function() {
     .pipe(concatCSS('styles.css'))
     .pipe(prefix())
     .pipe(minify())
-    .pipe(uncss());
+    .pipe(uncss())
+    .pipe(gulp.dest('./dist'));
 });
 
 // SCSS
